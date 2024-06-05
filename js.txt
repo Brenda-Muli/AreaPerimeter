@@ -1,0 +1,73 @@
+Declaring Variables:
+let and const
+let value can be updated while const can't be updated
+
+Naming rules
+Variables have to be descriptive names
+Name with camel case
+You cannot use keywords to name Variables
+You cannot name a Variable starting with a number 
+
+Data Types
+Numbers - 0-9
+String- includes characters and is written in single/double/back quotes
+Booleans- true or false
+Null- variable that has been decleared has no value
+Undefined- These are variables that have not been defined 
+let age = 24 (24 is the value of our variable)
+age = 24(variables not defined)
+Object- complex data structure, data literal-different properties
+Array- data structures of items with similar properties
+Methods- These are functions associated or specific to a data type
+
+Strings 
+console.log('Brenda');
+let firstName  = 'Brenda';
+console.log(firstName);
+
+//template string-inject variables into a string
+let book = `quick brown fox`
+let author = `Stacy`
+let age = 38
+let blog = `This book ${book} was written by {author} at the age of ${age}
+
+area and perimeter 
+
+//concetenation joining variables in terms of strings
+let firstName= 'Brenda'
+let lastName = 'Muli'
+
+let result = firstName + '' lastName;
+console.log(result)
+
+//getting characters
+Individual character with an string block
+console.log(result[0])
+
+//Length
+console.log(result.length)
+console.log(result[6])
+passwords
+
+ //Upercasing text
+ console.log(firstname.toLocalUpperCase())
+
+  //index
+  console.log(firstname.indexOf('u'))
+
+//slice //first to the nth character
+console.log(result.slice(1, 6));
+
+//substring
+console.log(result.substring(1, 6)); //upto the tnth character
+
+Numbers
+** - power %- rmeinder BIDMAS I stands for power
+let radius = 33;
+const pi = 3.14;
+let area = pi * radius **2;
+console.log(area);
+
+let addition  = radius +=10;
+console.log(addition)
+
